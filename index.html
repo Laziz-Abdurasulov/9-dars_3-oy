@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./css/bootstrap.min.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>9-dars</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-5 display-3 fw-bold">Kim birinchi bo-rish-ga!</h1>
+        <form class="js-form" method="POST">
+            <div class="box w-50 d-flex align-items-center justify-content-between me-auto ms-auto">
+                <p class="mb-0 h4">Masofa</p>
+                <input class="js-input form-control is-valid me-3 ms-3" required placeholder="Masofani kilometrda kiriting" aria-label="Lead the distance"  type="number">
+                <button type="submit"  class="btn btn-secondary">Secondary</button>
+            </div>
+            <span class="js-eror text-center d-block mt-2 text-danger h4"></span>
+        </form>
+        <div class="row mt-5">
+            <div class="col-3">
+                <div class="card pt-3" style="width: 100%;">
+                    <div class="w-50 h-50 mx-auto">
+                        <img src="./images/piyoda.png" width="50" height="50" class="card-img-top" style="max-width:100%;height:auto;" alt="drawing of a pedestrian painted in black">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text text-center h4">Piyoda</p>
+                        <p class="h5 card-text text-center">
+                            <span class="js-resultp"></span>
+                            
+                            soatda
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card pt-3" style="width: 100%;">
+                    <div class="w-50 h-50 mx-auto">
+                        <img src="./images/velosiped.png" width="50" height="50" class="card-img-top" style="max-width:100%;height:auto;" alt="drawing of a bicycle drawn in black and without a cyclist">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text text-center h4">Velosiped</p>
+                        <p class="h5 card-text text-center">
+                            <span class="js-resultv"></span> 
+                            
+                            soatda
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-3">
+                <div class="card pt-3" style="width: 100%;">
+                    <div class="w-50 h-50 mx-auto">
+                        <img src="./images/mashina.png" width="50" height="50" class="card-img-top mb-4" style="max-width:100%;height:auto;" alt="a black drawn car with a driver behind the wheel, the driver is also drawn completely black">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text text-center h4">Mashina</p>
+                        <p class="h5 card-text text-center">
+                            <span class="js-resultm"></span>
+                            
+                            soatda
+                        </p>
+                    </div>
+                </div>
+            </div>
+                        
+                        
+            <div class="col-3">
+                <div class="card pt-3" style="width: 100%;">
+                    <div class="w-50 h-50 mx-auto">
+                        <img src="./images/samolyot.png" width="50" height="50" class="card-img-top" style="max-width:100%;height:auto;" alt="black picture of an airplane drawn on the right diagonal">
+                    </div>
+                    <div class="card-body text-center">
+                        <p class="card-text text-center h4">Samolyot</p>
+                        <p class="h5 card-text text-center">
+                            <span class="js-results"></span>
+                            
+                            soatda
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+    
+    <script src="./js/main.js"></script>
+</body>
+</html>
